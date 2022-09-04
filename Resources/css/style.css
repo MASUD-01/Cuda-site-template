@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* reusable component */
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* header section */
+header {
+    background: #87509c;
+    height: 85vh;
+}
+
+.logo {
+    height: 35px;
+    width: auto;
+    margin-top: 35px;
+    float: left;
+}
+
+/* main navigation */
+.main-nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main-nav li:first-child {
+    margin-left: 0;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.main-nav li:hover {
+    background-color: #643a79;
+}
+
+.main-nav li a:link {}
+
+.main-nav li a:visited {}
