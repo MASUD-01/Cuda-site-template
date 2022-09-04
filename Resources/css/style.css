@@ -12,7 +12,27 @@ ul li {
     list-style: none;
 }
 
+/* heading */
+h1 {
+    font-size: 42px;
+    color: #fff;
+}
+
 /* reusable component */
+/* Button */
+.btn:link,
+.btn:visited,
+.btn {
+    background-color: #333;
+    border-bottom: 3px solid #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 60px;
+    border-radius: 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
 
 .row {
     max-width: 1140px;
@@ -21,8 +41,13 @@ ul li {
 
 /* header section */
 header {
-    background: #87509c;
+    /* background: #87509c; */
+    background: linear-gradient(rgba(135, 80, 156, 0.888), rgba(135, 80, 156, 0.911)), url('../bg-img/pexels-sevenstorm-juhaszimrus-443383.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 85vh;
+    position: relative;
 }
 
 .logo {
@@ -40,7 +65,9 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding: 6px 16px;
+    border-radius: 4px;
 }
 
 .main-nav li:first-child {
@@ -51,13 +78,32 @@ header {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-
+    font-size: 16px;
 }
 
 .main-nav li:hover {
+    background-color: #643a79;
+    transition: .3s;
+}
+
+.active {
     background-color: #643a79;
 }
 
 .main-nav li a:link {}
 
 .main-nav li a:visited {}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-hero:link,
+.btn-hero:visited {
+    background: #eb7d4b;
+    border-color: #c86a40;
+}
