@@ -6,6 +6,14 @@
 
 body {
     font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+/* ei font-size diye joto pixel dorkar take vag kore rem pabo
+percent use korechi zoom in out er khetre. pixel tahkleo hoy. tobe kono kono browser e
+somossa korte pare tai */
+html {
+    font-size: 62.5%;
 }
 
 ul li {
@@ -14,7 +22,7 @@ ul li {
 
 /* heading */
 h1 {
-    font-size: 42px;
+    font-size: 4.2rem;
     color: #fff;
 }
 
@@ -24,18 +32,18 @@ h1 {
 .btn:visited,
 .btn {
     background-color: #333;
-    border-bottom: 3px solid #000;
+    border-bottom: .3rem solid #000;
     color: #fff;
     text-decoration: none;
-    padding: 15px 60px;
-    border-radius: 3px;
+    padding: 1.5rem 6rem;
+    border-radius: .3rem;
     display: inline-block;
     text-transform: uppercase;
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 114rem;
     margin: auto;
 }
 
@@ -51,23 +59,23 @@ header {
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
     width: auto;
-    margin-top: 35px;
+    margin-top: 3.5rem;
     float: left;
 }
 
 /* main navigation */
 .main-nav {
     float: right;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 10px;
-    padding: 6px 16px;
-    border-radius: 4px;
+    margin-left: 1rem;
+    padding: .6rem 1.6rem;
+    border-radius: .4rem;
 }
 
 .main-nav li:first-child {
@@ -78,7 +86,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .main-nav li:hover {
@@ -106,4 +114,5 @@ header {
 .btn-hero:visited {
     background: #eb7d4b;
     border-color: #c86a40;
+    font-size: 1.6rem;
 }
