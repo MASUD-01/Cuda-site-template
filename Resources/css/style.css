@@ -359,3 +359,122 @@ h4 {
 .portfolio-section .mixitup-control-active {
     background-color: #fff;
 }
+
+/* testimonial section */
+
+.testimonial {
+    background-color: #d74680;
+}
+
+.testimonial .little-description {
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial .col:nth-child(3) {
+    margin-left: 0;
+}
+
+.testimonial .col:nth-child(1) {}
+
+.testimonial .col:nth-child(2),
+.testimonial .col:nth-child(1) {
+    margin-top: 4rem;
+}
+
+.testimonial .col:nth-child(4),
+.testimonial .col:nth-child(3) {
+    margin-top: 4rem;
+}
+
+.client-photo {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.photo-div {
+    width: 10rem;
+    float: left;
+}
+
+.client-review p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.role {
+    color: yellow;
+}
+
+/* form section */
+
+.contact-section {
+    background-color: #344b8e;
+    text-align: center;
+}
+
+.contact-section h2::after {
+    background-color: #27283d;
+}
+
+.contact-section .little-description {
+    color: #fff;
+}
+
+.contact-section form {
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+.contact-section input[type='text'],
+.contact-section input[type='email'],
+.contact-section textarea {
+    background-color: #273a71;
+    border: .1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: .5rem 0;
+}
+
+.contact-section form ::placeholder {
+    color: #fff;
+    opacity: .5;
+}
+
+.btn-submit {
+    border: 0;
+    border-bottom: .3rem solid #299ec5;
+    background-color: #30bae7;
+}
+
+/* footer */
+footer {
+    background-color: #273a71;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid #344b8e;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 2rem;
+    text-transform: capitalize;
+
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* 5000 screen device */
+.hero-text-box {
+    max-width: 114rem;
+}
